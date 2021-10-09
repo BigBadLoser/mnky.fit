@@ -1,0 +1,12 @@
+@charset "utf-8";
+// If need, change your variables before importing Bulma
+$radius-large: 0px;
+$radius-small: 0px;
+$radius: 0px;
+$footer-background-color: none;
+@import "../../node_modules/bulma/bulma.sass";
+
+.bulma-arrow-mixin {
+    @include arrow(black);
+  }
+
